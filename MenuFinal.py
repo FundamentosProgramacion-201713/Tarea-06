@@ -4,12 +4,19 @@ def recolectarinsecto():
   print("Bienvenido al programa que registra los insectos que recolectas")
   contador=0
   insectosprevios=0
-  while
+  meta=30
+  activo=True
+  while activo==True:
     insectos=int(input("¿Cuántos insectos atrapaste hoy?" ))
     contador+=1
     insectosprevios=insectosprevios+insectos
     print("Después de",contador,"día(s) de recolección, llevas",insectosprevios,"insectos")
-
+    if insectosprevios<30:
+      print("Te hace falta recolectar", total-insectosprevios,"insectos")
+    elif insectos previos>30:
+      print("Te has pasado con",insectosprevios-total,"insectos")
+    if insectosprevios==30:
+      print("¡Felicidades, has llegado a la meta!")
 def encontrarMayor():
   print("Bienvenido al programa que encuentra al mayor")
   numero=0
