@@ -1,7 +1,15 @@
 #encoding: UTF-8
 #Autor Aaron Villanueva
 def recolectarinsecto():
-  
+  print("Bienvenido al programa que registra los insectos que recolectas")
+  contador=0
+  insectosprevios=0
+  while
+    insectos=int(input("¿Cuántos insectos atrapaste hoy?" ))
+    contador+=1
+    insectosprevios=insectosprevios+insectos
+    print("Después de",contador,"día(s) de recolección, llevas",insectosprevios,"insectos")
+
 def encontrarMayor():
   print("Bienvenido al programa que encuentra al mayor")
   numero=0
