@@ -7,7 +7,8 @@ def encontrarMayor():
   numero=0
   while numero>-1:
     numero=int(input("Teclea un número [-1 para salir]: "))
-  max(numero)
+  final=max(numero)
+  return(final)
 
 def main():
   menu=True
