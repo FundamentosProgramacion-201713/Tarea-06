@@ -13,7 +13,7 @@ def recolectarinsecto():
     print("Después de",contador,"día(s) de recolección, llevas",insectosprevios,"insectos")
     if insectosprevios<30:
       print("Te hace falta recolectar", total-insectosprevios,"insectos")
-    elif insectos previos>30:
+    elif insectosprevios>30:
       print("Te has pasado con",insectosprevios-total,"insectos")
     if insectosprevios==30:
       print("¡Felicidades, has llegado a la meta!")
