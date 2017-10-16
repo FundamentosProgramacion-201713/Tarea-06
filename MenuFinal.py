@@ -12,11 +12,13 @@ def recolectarinsecto():
     insectosprevios=insectosprevios+insectos
     print("Después de",contador,"día(s) de recolección, llevas",insectosprevios,"insectos")
     if insectosprevios<30:
-      print("Te hace falta recolectar", total-insectosprevios,"insectos")
+      print("Te hace falta recolectar", meta-insectosprevios,"insectos")
     elif insectosprevios>30:
-      print("Te has pasado con",insectosprevios-total,"insectos")
-    if insectosprevios==30:
+      print("Te has pasado con",insectosprevios-meta,"insectos")
+    if insectosprevios>=30:
       print("¡Felicidades, has llegado a la meta!")
+      break
+
 def encontrarMayor():
   print("Bienvenido al programa que encuentra al mayor")
   numero=0
