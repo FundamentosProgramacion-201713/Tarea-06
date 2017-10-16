@@ -1,5 +1,13 @@
 #encoding: UTF-8
 #Autor Aaron Villanueva
+def recolectarinsecto():
+  
+def encontrarMayor():
+  print("Bienvenido al programa que encuentra al mayor")
+  numero=0
+  while numero>-1:
+    numero=int(input("Teclea un número [-1 para salir]: "))
+  max(numero)
 
 def main():
   menu=True
