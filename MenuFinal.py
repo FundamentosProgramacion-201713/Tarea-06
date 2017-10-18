@@ -51,7 +51,8 @@ def main():
       recolectarinsecto()
     elif eleccion==2:
       print("")
-      encontrarMayor()
+      mayorfinal=encontrarMayor()
+      print(mayorfinal)
     elif eleccion==3:
       print("Gracias por usar este programa, regresa pronto")
       break
