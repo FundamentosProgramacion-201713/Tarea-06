@@ -36,6 +36,7 @@ def calcularMayor():
         print("El mayor es: %d" %mayor)
     print("")
 
+#En la función main, se muestra el menú y se realizan los otros programas
 def main():
     x = 0
     while x != 3:
