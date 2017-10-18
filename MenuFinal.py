@@ -1,5 +1,9 @@
 #encoding: UTF-8
 #Autor Aaron Villanueva
+
+introduccion="Tarea 06. Ciclos While"
+autor="Autor Aaron Villanueva"
+
 def recolectarinsecto():
   print("Bienvenido al programa que registra los insectos que recolectas")
   contador=0
@@ -34,13 +38,18 @@ def encontrarMayor():
 def main():
   menu=True
   while menu==True:
+    print(introduccion)
+    print(autor)
+    print("")
     print("1. Recolectar insectos")
     print("2. Encontrar al mayor")
     print("3. Salir")
     eleccion=int(input("Teclea tu opción"))
     if eleccion==1:
+      print("")
       recolectarinsecto()
     elif eleccion==2:
+      print("")
       encontrarMayor()
     elif eleccion==3:
       break
