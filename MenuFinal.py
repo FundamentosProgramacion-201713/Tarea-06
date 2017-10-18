@@ -4,6 +4,8 @@
 introduccion="Tarea 06. Ciclos While"
 autor="Autor Aaron Villanueva"
 
+#Esta función registra el número de insectos recolectados e imprime el número restante para obtener 30. Si la meta se alcanza se informa al usuario.
+#Si la meta se rebasa, se indica cuantos insectos adicionales se recolectaron.
 def recolectarinsecto():
   print("Bienvenido al programa que registra los insectos que recolectas")
   contador=0
@@ -24,6 +26,8 @@ def recolectarinsecto():
       print("")
       break
 
+#Esta función captura una serie de números introducidos por el usuario y los agrega a una lista.
+#Posteriomente, regresa el valor más alto de la lista.
 def encontrarMayor():
   print("Bienvenido al programa que encuentra al mayor")
   continuar=True
@@ -59,6 +63,5 @@ def main():
       break
     else:
       print("ERROR. Teclea 1,2 o 3")
-
 
 main()
