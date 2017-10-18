@@ -52,9 +52,10 @@ def main():
       print("")
       encontrarMayor()
     elif eleccion==3:
+      print("Gracias por usar este programa, regresa pronto")
       break
     else:
-      print("Número no reconocido")
+      print("ERROR. Teclea 1,2 o 3")
 
 
 main()
