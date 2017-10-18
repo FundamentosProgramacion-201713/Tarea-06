@@ -21,6 +21,7 @@ def recolectarinsecto():
       print("Te has pasado con",insectosprevios-meta,"insectos")
     if insectosprevios>=30:
       print("¡Felicidades, has llegado a la meta!")
+      print("")
       break
 
 def encontrarMayor():
@@ -32,7 +33,7 @@ def encontrarMayor():
     if numero>-1:  
       lista.append(numero)
       final=max(lista)
-    else:
+    elif numero==-1:
       return(final)
 
 def main():
