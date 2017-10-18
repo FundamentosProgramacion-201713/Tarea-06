@@ -21,11 +21,15 @@ def recolectarinsecto():
 
 def encontrarMayor():
   print("Bienvenido al programa que encuentra al mayor")
-  numero=0
-  while numero>-1:
+  continuar=True
+  lista=[]
+  while continuar==True:
     numero=int(input("Teclea un número [-1 para salir]: "))
-  final=max(numero)
-  return(final)
+    if numero>-1:  
+      lista.append(numero)
+      final=max(lista)
+    else:
+      return(final)
 
 def main():
   menu=True
