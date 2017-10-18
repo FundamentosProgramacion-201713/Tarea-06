@@ -53,6 +53,7 @@ def main():
       print("")
       mayorfinal=encontrarMayor()
       print(mayorfinal)
+      print("")
     elif eleccion==3:
       print("Gracias por usar este programa, regresa pronto")
       break
