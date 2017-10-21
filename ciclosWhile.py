@@ -5,7 +5,7 @@ def calcularInsectos():
     #Función que calcula la cantidad de insectos que se ha recolectado hasta que tenga 30 o más
     contador = 0
     insectosRecolectados = 0
-    print("""\nBienvenido que registra los insectos
+    print("""\nBienvenido al programa que registra los insectos
 que recolectas""")
     while insectosRecolectados < 30:
         insectosRecolectados += int(input("¿Cuántos insectos atrapaste hoy? "))
