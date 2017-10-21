@@ -60,7 +60,11 @@ def main():#funcion pricipal
             calcularNumeros()
             print("   ")
         else:
-            print("error solo puede elegir numeros del 1 al 3")
+            numero!=1 and numero!=2 and numero!=3
+            print("ERROR, escriba un numero que sea solo de 1 a 3")
+
+            print("     ")
+
         print("tarea 06")
         print("Autor:Raul ortiz mateos")
         print("Ciclos While")
