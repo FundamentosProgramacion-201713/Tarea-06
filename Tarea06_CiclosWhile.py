@@ -50,6 +50,7 @@ def main():
         print("2. Encontrar el mayor.")
         print("3. Salir")
         usuario= int(input("Teclea tu opcion: "))
+        print("")
         #Si se teclea 1 se realizara la funcion de recolectar insectos.
         if usuario==1:
             print("Bienvenido al programa que registra los insectos que recolectas ")
