@@ -17,7 +17,7 @@ que recolectas""")
         if insectosFaltantes < 0:
             print("Te has pasado con", insectosFaltantes * -1, "insectos")
         else:
-            print("Te hace falte recolectar", insectosFaltantes, "insectos")
+            print("Te hace falta recolectar", insectosFaltantes, "insectos")
     print("¡Felicidades, has llegado a la meta!\n\n")
 
 def calcularMayor():
