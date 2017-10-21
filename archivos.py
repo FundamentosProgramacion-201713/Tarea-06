@@ -18,6 +18,7 @@ def bugCollection():
 
     print("¡Felicidades, has llegado a la meta!\n\n")
 
+
 def findingBigestNum():
     numList =[]
     num = int(input("""
@@ -34,6 +35,7 @@ Teclea un número [-1 para salir]: """))
     else:
         print("ERROR: No hay números por procesar")
     return mayor
+
 
 def main():
     option = 0
@@ -53,6 +55,7 @@ Teclea tu opción: """))
             print("ERROR, teclea 1, 2 o 3\n\n")
 
     print("\nGracias por usar este programa, regresa pronto.")
+
 
 if __name__ == '__main__':
     main()
