@@ -26,6 +26,7 @@ def capturarInsectos():#definimos la función
 
 
 def calcularNumeroMayor():#Definimos la función
+    print("Bienvenido al programa que encuentra el numero mayor")
     num=int(input("Dame un numero[-1 para salir del programa]: "))#Pedimos al usuario el numero
     lista=[]#creamos una lista en blanco
     while num !=-1 :#mientras el numero sea diferente a -1 hará las siguientes lineas
