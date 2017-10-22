@@ -5,26 +5,29 @@
 def registrarInsectos():
     print(" ")
     print("Bienvenido al programa que registra los insectos que recolectas")
+    print(" ")
     insectos = int(input("¿Cuántos insectos atrapaste hoy? "))
-    dia = 0
-    recolectados = 0
+    dia = 0 # contador días
+    recolectados = 0 # contador insectos
 
     terminar = False
 
     while not terminar:
-        if insectos < 0:
+        if insectos < 0: # para no aceptar valores negativos
             print("ERROR. Inserte un número válido.")
+            print(" ")
             insectos = int(input("¿Cuántos insectos atrapaste hoy? "))
         dia += 1
         recolectados += insectos
         diferencia = 30 - recolectados
-        if recolectados < 30 and recolectados >= 0:
+        if recolectados < 30 and recolectados >= 0: # para cuando faltan insectos para los 30.
             print("Después de %d día(s) de recolección, llevas %d insectos." % (dia,recolectados))
-            print("Te hacen falta recolectar", diferencia, "insectos.")
+            print("Te hacen falta recolectar %d insectos." % (diferencia))
+            print(" ")
             insectos = int(input("¿Cuántos insectos atrapaste hoy? "))
 
-        else:
-            print("Después de",dia," días(s) de recolección, llevas",recolectados,"insectos")
+        else: # cuando pasan los 30 insectos
+            print("Después de %d día(s) de recolección, llevas %d insectos." % (dia,recolectados))
             print("Te has pasado con", -diferencia, "insectos")
             print("¡Felicidades, has llegado a la meta!")
             terminar = True
@@ -34,12 +37,14 @@ def encontrarMayor():
     print("Bienvenido al programa que encuentra el mayor")
     lista = []
     numero = int(input("Teclea un número [-1 para salir]: "))
-    while numero != -1:
-        lista.append(numero)
-        numero = int(input("Teclea un número [-1 para salir]: "))
-    if len(lista) > 0:
+    while numero != -1: # mientras no sea -1
+        lista.append(numero) # agregar a la lista
+        numero = int(input("Teclea un número [-1 para salir]: ")) # pedir más valores
+    if len(lista) > 0: # cuando se tiene un número o más
+        print(" ")
         print("El mayor es:",max(lista))
-    else:
+    else: # cuando no se tienen números
+        print(" ")
         print("Por favor introduzca datos, su lista está vacía.")
 
 
