@@ -21,7 +21,7 @@ def contarInsectos():
 
         if insectos > 30:  # Si llega a MÁS DE 30
             print("Después de", dias, "día(s) de recolección, llevas:", insectos, "insectos.")
-            print("Te hace falta recolectar", insectos - 30, "insectos")  # Restante de insectos
+            print("Te pasaste por", insectos - 30, "insectos")  # Restante de insectos
             print("")
             print("¡Felicidades, has llegado a la meta!")
             print("")
